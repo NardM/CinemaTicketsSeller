@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d1de3c1ac7c4c89aa089ade9e6ef114" Name="Diagram1" >
+        <EntityTypeShape EntityType="CinemaModel.Movie" Width="1.5" PointX="1.375" PointY="0.625" />
+        <EntityTypeShape EntityType="CinemaModel.MovieGenre" Width="1.5" PointX="6.125" PointY="0.75" />
+        <EntityTypeShape EntityType="CinemaModel.Ticket" Width="1.5" PointX="1.375" PointY="3.75" />
+        <EntityTypeShape EntityType="CinemaModel.Session" Width="1.5" PointX="6.25" PointY="3.375" />
+        <AssociationConnector Association="CinemaModel.MovieSession" />
+        <AssociationConnector Association="CinemaModel.MovieGenreMovie" />
+        <AssociationConnector Association="CinemaModel.SessionTicket" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
